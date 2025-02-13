@@ -2,7 +2,7 @@
 
 This is an open-source clone of the now-defunct notepad.cc: "a piece of paper in the cloud".
 
-See demo at https://notes.orga.cat or https://notes.orga.cat/whatever.
+See demo at https://musc0de.web.id or https://musc0de.web.id/whatever.
 
 ## Installation
 
