@@ -1,0 +1,27 @@
+# robots.txt file for https://inote.pw
+
+# Block all web crawlers from accessing specific files and directories
+User-agent: *
+Disallow: /database.php
+Disallow: /maintenance.php
+Disallow: /send_document_handler.php
+Disallow: /send_bot_konter.php
+Disallow: /update_sitemap.php
+Disallow: /maintenance_status.txt
+Disallow: /notes_log.txt
+Disallow: /api/change_password.php
+Disallow: /api/check_password.php
+Disallow: /api/note_has_password.php
+Disallow: /api/set_password.php
+Disallow: /api/set_session.php
+Disallow: /api/sitemap.xml
+Disallow: /_tmp/*
+Disallow: /admin/*
+Disallow: /api/*
+
+# Allow all other web crawlers to access the rest of the site
+User-agent: Mediapartners-Google
+Allow: /
+
+# Sitemap location
+Sitemap: https://inote.pw/sitemap.xml
